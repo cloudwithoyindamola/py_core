@@ -11,13 +11,13 @@
 #print ("but he didnt like being 35.")
 
     #VARIABLE
-# character_name = "John"
-# character_age = 35
-# is_male = False
+character_name = "John"
+character_age = 35
+is_male = False
 # print (f"There was a man named {character_name} ,")
 # print (f"he was {character_age} years old.") 
 
-# character_name = "Mike"
+character_name = "Mike"
 
 # print (f"He really liked the name {character_name},")
 # print (f"but he didnt like being {character_age}.")
@@ -27,13 +27,21 @@
 # print ("boy\girl")    #means put \after boy
 
          # STRING VARIABLE
-# Phrase = "Giraffe Academy"
+Phrase = "Giraffe Academy"
 # print(Phrase)
-# #concatenatiON - putting a string with another string or number
+#concatenatiON - putting a string with another string or number
 # print(Phrase + " is cool")
 
+         #assigning multiple values to  a variable
+b, c, d = 1, 3, "cat"
+#print(b, c, d)
+
+         #assigning some values to multiple variable
+b = c = d = 5
+#print(b, c, d)
+
     # #Functions
-# phrase = "Giraffe Academy"
+phrase = "Giraffe Academy"
 # print(phrase.lower())      #change to lowercases
 # print(phrase.upper())      #change to uppercases
 # print(phrase.isupper())     #to check if the string is uppercase
@@ -42,7 +50,7 @@
 # print(phrase.upper().isupper())  #conert to uppercase first then return true 
 
 #LEN FUNCTION - USED TO KNOW THE LENGTH OF A STRING
-# phrase = "Giraffe Academy"
+phrase = "Giraffe Academy"
 # print(len(phrase))
 
 # print (phrase[0])     #prints the speecified position character e.g01234567...
@@ -51,7 +59,7 @@
 # print (phrase.index("G"))   #PRINTS THE POSITION OF G
 
 # #REPLACE FUNCTION
-# phrase = "Giraffe Academy"
+phrase = "Giraffe Academy"
 # print(phrase.replace("Giraffe", "Elephant")
   
      #NUMBER VARIABLE
@@ -62,16 +70,16 @@
 # print(10 % 3)   #this prints the remainder
 
 #variable
-# my_num = 5
+my_num = 5
 # print(my_num)
-# # my_num = 5
+my_num = 5
 # # print(f"{my_num} my favourite number")        #same result
 # # print(str(my_num) + " my favourite number")   #same result
   
 #    #MATH FUNCTIONS
 
 # #ABS- Absolute value
-# my_num = -5
+my_num = -5
 # print(abs(my_num))     #prints 5 without the negativesign
  
 # #pow function
@@ -100,4 +108,4 @@ num1 =input("enter the number:")
 num2 =input("enter another number:")
 result =float(num1) + float(num2)    #use int for whole decimak only, use float for decimal numbers 
 
-print(f"{result}")
+#print(f"{result}")
